@@ -12,3 +12,7 @@ let sum=arr[0];
 }
 return mincostAmount
 module.exports=mincost;
+
+}
+
+	
