@@ -1,5 +1,10 @@
 let PriorityQueue = require('priorityqueuejs');
 function mincost(arr) {
+
+if (arr.length===0) {
+	return 0
+}
+	
   let minHeap = new PriorityQueue(function(a, b) {
     return a - b;
   });
